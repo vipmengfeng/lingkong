@@ -1,0 +1,279 @@
+<?php if (!defined('THINK_PATH')) exit();?> <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>灵控汽车租赁管理系统</title>
+    <!--[if lt IE 8]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/public/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="/public/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/public/css/animate.min.css" rel="stylesheet">
+    <link href="/public/css/style.min.css?v=4.0.0" rel="stylesheet">
+    <script src="/public/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/public/js/bootstrap.min.js?v=3.3.5"></script>
+    <script src="/public/js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="/public/js/content.min.js?v=1.0.0"></script>
+    <script src="/public/js/plugins/iCheck/icheck.min.js"></script>
+    <script src="/public/js/demo/peity-demo.min.js"></script>
+    <script src="/public/js/jquery.confirm.js"></script>
+    <script>
+    fresh_data();
+    function fresh_data(){
+        $("#fresh_button").css("display","none");
+        $(".sk-spinner").css("display","block");
+        $.ajax({
+                    url:'/index.php/home/employer/fresh_employer',
+                    type:'POST', //GET
+                    async:true,    //或false,是否异步
+                    data:{
+                        
+                    },
+                    dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+                    success:function(data,textStatus,jqXHR){
+                        if(data['status']==-1){
+                            alert("权限不足！");
+                        }else{
+                             
+                        
+                        //alert(data[0].username);
+                        html_table="";
+                        $(data).each(function(index, el) {
+                            //alert(el.username);
+                            html_table+="<tr><td></td><td>"+el.username+"</td>";
+
+                            html_table+="<td>"+el.nickname+"</td>";
+                            html_table+="<td>"+el.user_perm+"</td>";
+                            html_table+="<td>"+el.tel+"</td>";
+                            html_table+="<td>"+el.addtime+"</td>";
+                            if(el.status==1){
+                                html_table+="<td><a href='#' id=l"+el.id+" onclick=javascript:lock(&quot;"+el.id+"&quot;)>锁定</a> ";
+                            }else{
+                                html_table+="<td><a href='#' id=l"+el.id+" onclick=javascript:unlock(&quot;"+el.id+"&quot;)>解锁</a> ";
+                            }
+                            html_table+="<a href='#' onclick=javascript:reset_password(&quot;"+el.id+"&quot;)>重置密码</a> ";
+                            html_table+="<a href='#' id=d"+el.id+" onclick=javascript:del(&quot;"+el.id+"&quot;)>删除</a></td>";
+                            html_table+="</tr>";
+
+                        });
+                        $("#data_table").html(html_table);
+                    }
+
+                    },
+                    error:function(xhr,textStatus){
+                    },
+                    complete:function(){
+                        $("#fresh_button").css("display","block");
+                        $(".sk-spinner").css("display","none");
+                        //alert("complete");
+                        //$("#d"+id).parent().parent().remove();
+                    }
+            })
+    }
+    function reset_password(id){
+        alert(id);
+        $.ajax({
+                    url:'/index.php/home/employer/reset_employer',
+                    type:'POST', //GET
+                    async:true,    //或false,是否异步
+                    data:{
+                        id:id
+                    },
+                    dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+                    success:function(data,textStatus,jqXHR){
+                       
+                        if(data['status']==-1){
+                            alert("权限不足！");
+                        }else{
+                             alert("密码已重置为：123456");
+                        }
+                    },
+                    error:function(xhr,textStatus){
+                    },
+                    complete:function(){
+                        //alert("complete");
+                        //$("#d"+id).parent().parent().remove();
+                    }
+            })
+    }
+    function unlock(id){
+         $.ajax({
+                    url:'/index.php/home/employer/unlock_employer',
+                    type:'POST', //GET
+                    async:true,    //或false,是否异步
+                    data:{
+                        id:id
+                    },
+                    dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+                    success:function(data,textStatus,jqXHR){
+                       if(data['status']==-1){
+                            alert("权限不足！");
+                        }else{
+                            alert("解锁成功");
+                            fresh_data();
+                        }
+                    },
+                    error:function(xhr,textStatus){
+                    },
+                    complete:function(){
+                        //alert("complete");
+                        //$("#d"+id).parent().parent().remove();
+                    }
+            })
+    }
+    function lock(id){
+        $.ajax({
+                    url:'/index.php/home/employer/lock_employer',
+                    type:'POST', //GET
+                    async:true,    //或false,是否异步
+                    data:{
+                        id:id
+                    },
+                    dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+                    success:function(data,textStatus,jqXHR){
+                        if(data['status']==-1){
+                            alert("权限不足！");
+                        }else{
+                             alert("锁定成功");
+                            fresh_data();
+                        }
+                    },
+                    error:function(xhr,textStatus){
+                    },
+                    complete:function(){
+                        //alert("complete");
+                        //$("#d"+id).parent().parent().remove();
+                    }
+            })
+    }
+       function deletes(id){
+            $.ajax({
+                    url:'/index.php/home/employer/del_employer',
+                    type:'POST', //GET
+                    async:true,    //或false,是否异步
+                    data:{
+                        id:id
+                    },
+                    dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+                    success:function(data,textStatus,jqXHR){
+                        //alert("删除成功");
+                        if(data['status']==-1){
+                            alert("权限不足！");
+                        }else{
+                            fresh_data();
+                        }
+                        
+                    },
+                    error:function(xhr,textStatus){
+                    },
+                    complete:function(){
+                        //alert("complete");
+                        //$("#d"+id).parent().parent().remove();
+                        //fresh_data();
+                    }
+            })
+       }
+       function del(id){
+        $("#d"+id).confirm({
+            title:"删除确认",
+            text:"确定要删除这条信息吗?",
+            confirm: function(button) {
+                deletes(id);
+
+            },
+            cancel: function(button) {
+            },
+            confirmButton: "是的",
+            cancelButton: "不"
+});
+       }
+    </script>
+</head>
+
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>操作员列表</h5>
+
+                        
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="input-group">
+                                     <span class="input-group-btn" id="fresh_button">
+                                        <button type="button" class="btn btn-sm btn-primary" onclick="fresh_data()"> 刷新数据</button>
+                                     </span>
+                                        <div class="sk-spinner sk-spinner-cube-grid" style="display: none;">
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                    <div class="sk-cube"></div>
+                                                </div>
+                                </div>      
+                            </div>
+
+                        </div>
+                    </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr id="test">
+
+                                        <th></th>
+                                        <th>登录名称</th>
+                                        <th>姓名</th>
+                                        <th>角色</th>
+                                        <th>电话</th>
+                                        <th>添加日期</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="data_table">
+                                <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                        <td>
+                                            
+                                        </td>
+                                        <td><?php echo ($vo["username"]); ?></td>
+                                        <td><?php echo ($vo["nickname"]); ?></td>
+                                        <td><?php echo ($vo["user_perm"]); ?></td>
+                                        <td><?php echo ($vo["tel"]); ?></td>
+                                        <td><?php echo (date("Y-m-d H:i",$vo["addtime"])); ?></td>
+                                        <td>
+                                        <?php if($vo["status"] == 1): ?><a href="#" id="l<?php echo ($vo["id"]); ?>" onclick="javascript:lock(<?php echo ($vo["id"]); ?>)">锁定</a>
+                                        <?php else: ?>
+                                        <a href="#" id="l<?php echo ($vo["id"]); ?>" onclick="javascript:unlock(<?php echo ($vo["id"]); ?>)">解锁</a><?php endif; ?>
+                                        <a href="#" id="l<?php echo ($vo["id"]); ?>" onclick="javascript:reset_password(<?php echo ($vo["id"]); ?>)">重置密码</a>
+                                            <a href="#" id="d<?php echo ($vo["id"]); ?>" onclick="javascript:del(<?php echo ($vo["id"]); ?>);return false;" class="complexConfirm">删除</a>
+                                        </td>
+                                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>

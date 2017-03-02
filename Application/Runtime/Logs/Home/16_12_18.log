@@ -1,0 +1,193 @@
+[ 2016-12-18T13:12:00+08:00 ] 127.0.0.1 /index.php/home/admin/add_customer_o?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013793s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2016-12-18T13:12:06+08:00 ] 127.0.0.1 /index.php/home/admin/add_customer?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-12-18T13:12:28+08:00 ] 127.0.0.1 /index.php/home/admin/add_customer_o?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-12-18T13:12:29+08:00 ] 127.0.0.1 /index.php/home/admin/customer_list?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2016-12-18T13:12:30+08:00 ] 127.0.0.1 /index.php/home/admin/customer_search_ajax_org
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `customer_o` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `customer_o` WHERE `userid` IN ('45') AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0164s ]
+
+[ 2016-12-18T13:12:30+08:00 ] 127.0.0.1 /index.php/home/admin/customer_search_ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `customer_c` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `customer_c` WHERE `userid` IN ('45') AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0129s ]
+
+[ 2016-12-18T13:12:30+08:00 ] 127.0.0.1 /index.php/home/admin/customer_list_ajax_org
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `customer_o` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `customer_o` WHERE `userid` IN ('45') AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0185s ]
+
+[ 2016-12-18T13:12:30+08:00 ] 127.0.0.1 /index.php/home/admin/customer_list_ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `customer_c` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `customer_c` WHERE `userid` IN ('45') AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0163s ]
+NOTIC: [8] Undefined variable: info C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: status C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/admin/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002820s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php on line 84 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003337s ]
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/admin/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/admin/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/admin/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/admin/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/admin/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+ERR: 非法操作:index
+
+[ 2016-12-18T22:46:20+08:00 ] 127.0.0.1 /index.php/home/admin/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+

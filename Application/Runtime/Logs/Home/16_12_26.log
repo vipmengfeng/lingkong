@@ -1,0 +1,345 @@
+[ 2016-12-26T00:16:27+08:00 ] 127.0.0.1 /index.php/home/admin/order_add/car_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016286s ]
+
+[ 2016-12-26T00:16:57+08:00 ] 127.0.0.1 /index.php/home/admin/order_add/car_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `child_company` [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `store_c` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `cars_c` [ RunTime:0.0145s ]
+SQL: SELECT * FROM cars_c as a INNER JOIN cars as b on b.id = a.cars_id  WHERE ( a.id =7 ) LIMIT 1   [ RunTime:0.0157s ]
+SQL: SELECT * FROM `child_company` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0138s ]
+SQL: SELECT * FROM `store_c` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: address C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\b7f507eea3d552cd51ffe97cb08cf6c8.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012792s ]
+
+[ 2016-12-26T00:17:05+08:00 ] 127.0.0.1 /index.php/home/admin/price_all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2016-12-26T00:17:18+08:00 ] 127.0.0.1 /index.php/home/admin/price_all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-12-26T00:17:31+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+ERR: 参数错误或者未定义:carid
+
+[ 2016-12-26T00:17:58+08:00 ] 127.0.0.1 /index.php/home/admin/order_add/car_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `child_company` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `store_c` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `cars_c` [ RunTime:0.0145s ]
+SQL: SELECT * FROM cars_c as a INNER JOIN cars as b on b.id = a.cars_id  WHERE ( a.id =7 ) LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT * FROM `child_company` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT * FROM `store_c` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000657s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Undefined variable: address C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\b7f507eea3d552cd51ffe97cb08cf6c8.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003811s ]
+
+[ 2016-12-26T00:18:18+08:00 ] 127.0.0.1 /index.php/home/admin/price_all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-12-26T00:18:26+08:00 ] 127.0.0.1 /index.php/home/admin/price_all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-12-26T00:18:32+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+ERR: 参数错误或者未定义:start
+
+[ 2016-12-26T00:19:12+08:00 ] 127.0.0.1 /index.php/home/admin/order_add/car_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `child_company` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `store_c` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `cars_c` [ RunTime:0.0116s ]
+SQL: SELECT * FROM cars_c as a INNER JOIN cars as b on b.id = a.cars_id  WHERE ( a.id =7 ) LIMIT 1   [ RunTime:0.0119s ]
+SQL: SELECT * FROM `child_company` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `store_c` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001978s ]
+NOTIC: [8] Undefined variable: address C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\b7f507eea3d552cd51ffe97cb08cf6c8.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004944s ]
+
+[ 2016-12-26T00:19:23+08:00 ] 127.0.0.1 /index.php/home/admin/price_all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-12-26T00:19:30+08:00 ] 127.0.0.1 /index.php/home/admin/price_all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-12-26T00:19:35+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 7 C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 731 行.
+NOTIC: [8] Undefined variable: p C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 736 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-12-26T00:21:38+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 7 C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 734 行.
+NOTIC: [8] Undefined variable: p C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 739 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-12-26T00:22:06+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 7 C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 734 行.
+NOTIC: [8] Undefined variable: p C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 740 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-12-26T00:22:09+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 7 C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 734 行.
+NOTIC: [8] Undefined variable: p C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 740 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002342s ]
+
+[ 2016-12-26T00:22:23+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Array to string conversion C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 730 行.
+NOTIC: [8] Undefined offset: 7 C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 735 行.
+NOTIC: [8] Undefined variable: p C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 741 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-12-26T00:23:46+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-12-26T00:24:06+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-12-26T00:25:59+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-12-26T00:52:26+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: carid C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 727 行.
+NOTIC: [8] Undefined variable: carid C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: a C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: b C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: c C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 747 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-12-26T00:54:05+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: carid C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 727 行.
+NOTIC: [8] Undefined variable: carid C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: a C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: b C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: c C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 747 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-12-26T00:54:35+08:00 ] 127.0.0.1 /index.php/home/admin/price
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [2] Missing argument 1 for Common\Controller\CommonController::get_user_roles(), called in C:\wamp\www\wwwroot\Application\Home\Controller\AdminController.class.php on line 8 and defined C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: carid C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 727 行.
+NOTIC: [8] Undefined variable: carid C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: a C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: b C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: c C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 728 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\wwwroot\Application\Common\Controller\CommonController.class.php 第 748 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+

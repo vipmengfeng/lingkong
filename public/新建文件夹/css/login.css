@@ -1,0 +1,8 @@
+body{ background: url(../images/bg.png);}
+.center{margin:0 auto;width:960px;background:url(../images/bg_1.png) center 50px no-repeat;margin-top:8%;}
+.company h1{font-size: 48px;color: #fff;text-shadow: 1px 2px 1px #334964; font-family: "Microsoft Yahei";text-align: center;margin-bottom: 50px;}
+.biaodan{ background: #eff2f9; border-radius:2px;width:440px;height:288px;margin:0 auto; padding-top: 40px;box-shadow: 2px 2px 8px #334964;}
+.biaodan .user{width:350px;margin:0 auto;}
+.biaodan .user input{height:48px; line-height:48px;width:350px;font-size: 13px;color: #1f2529;display: block;border:1px #d8d8d8 solid;border-radius: 4px;margin-bottom: 24px;padding:0 10px;}
+.biaodan button{height:48px; line-height:48px;width:350px;margin:0 auto;font-size: 14px;color: #fff;display: block;border-radius: 4px;background: #97b972;border:none;font-weight: bold;margin-bottom: 10px;}
+.biaodan font{font-size: 13px; font-family: Arial;color: #8f9093;float: right;}

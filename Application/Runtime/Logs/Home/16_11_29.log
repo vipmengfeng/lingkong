@@ -1,0 +1,2359 @@
+[ 2016-11-29T10:27:42+08:00 ] ::1 /index.php/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009673s ]
+
+[ 2016-11-29T10:27:43+08:00 ] ::1 /index.php/home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-11-29T10:28:20+08:00 ] ::1 /index.php/home/index/login?username=oo&password=111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-11-29T10:29:05+08:00 ] ::1 /index.php/home/index/login?username=oo&password=111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015562s ]
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-11-29T10:59:09+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-11-29T10:59:10+08:00 ] ::1 /index.php/home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-11-29T11:01:28+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-11-29T11:01:28+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-11-29T11:01:28+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-11-29T11:01:28+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-11-29T11:01:28+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-11-29T11:01:28+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:01:28+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-11-29T11:02:24+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-11-29T11:02:24+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-11-29T11:02:24+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-11-29T11:02:24+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-11-29T11:02:24+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-11-29T11:02:24+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-11-29T11:02:24+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:02:58+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-11-29T11:02:58+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-11-29T11:02:58+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-11-29T11:02:58+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-11-29T11:02:58+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-11-29T11:02:58+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:02:58+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-11-29T11:03:16+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001933s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000492s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-11-29T11:04:09+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-11-29T11:05:21+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-11-29T11:05:21+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-11-29T11:05:21+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-11-29T11:05:21+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-11-29T11:05:21+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-11-29T11:05:22+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-11-29T11:05:22+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:05:27+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-11-29T11:05:27+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-11-29T11:05:28+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-11-29T11:05:28+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-11-29T11:05:28+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-11-29T11:05:28+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-11-29T11:06:08+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:06:41+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-11-29T11:07:16+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-11-29T11:08:00+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-11-29T11:08:00+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-11-29T11:08:00+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-11-29T11:08:00+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:08:00+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-11-29T11:08:00+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:08:44+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-11-29T11:08:46+08:00 ] ::1 /index.php/home/index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-11-29T11:08:48+08:00 ] ::1 /Index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-11-29T11:08:48+08:00 ] ::1 /Index.php/home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-11-29T11:08:50+08:00 ] ::1 /index.php/home/index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-11-29T11:08:50+08:00 ] ::1 /index.php/home/index/index_v2.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index_v2
+
+[ 2016-11-29T11:09:45+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2016-11-29T11:09:45+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+
+0680s ]
+
+[ 2016-11-29T11:09:45+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-11-29T11:09:45+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006769s ]
+
+[ 2016-11-29T11:09:45+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-11-29T11:09:45+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-11-29T11:09:45+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-11-29T11:10:40+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-11-29T11:10:40+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-11-29T11:10:40+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-11-29T11:10:40+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-11-29T11:10:40+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-11-29T11:10:40+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-11-29T11:10:40+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-11-29T11:11:01+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-11-29T11:11:22+08:00 ] ::1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-29T11:11:56+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-11-29T11:13:27+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-11-29T11:13:27+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003561s ]
+
+[ 2016-11-29T11:13:27+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-11-29T11:13:27+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-11-29T11:13:27+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-11-29T11:13:27+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-11-29T11:13:27+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+0529s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-11-29T11:13:49+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-11-29T11:14:39+08:00 ] ::1 /index.php/home/index/suggest.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:suggest
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-11-29T11:14:48+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005394s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-11-29T11:15:32+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-11-29T11:15:35+08:00 ] ::1 /index.php/home/index/layerdate.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:layerdate
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-11-29T11:16:29+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-11-29T11:17:10+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-11-29T11:17:10+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-11-29T11:17:10+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-11-29T11:17:10+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-11-29T11:17:10+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-11-29T11:17:10+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-11-29T11:17:10+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-11-29T11:17:41+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-11-29T11:17:56+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-11-29T11:17:56+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-11-29T11:17:56+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-11-29T11:17:56+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-11-29T11:17:56+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002297s ]
+
+[ 2016-11-29T11:17:56+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-11-29T11:17:57+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-11-29T11:17:57+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003314s ]
+
+[ 2016-11-29T11:18:47+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005349s ]
+
+[ 2016-11-29T11:18:47+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-11-29T11:18:47+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-11-29T11:18:47+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2016-11-29T11:18:47+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-11-29T11:18:47+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-11-29T11:18:47+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-11-29T11:19:05+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-11-29T11:19:05+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-11-29T11:19:05+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-11-29T11:19:05+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-11-29T11:19:05+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-11-29T11:19:05+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-11-29T11:19:05+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-11-29T11:19:20+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002780s ]
+
+[ 2016-11-29T11:19:33+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2016-11-29T11:19:33+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-11-29T11:19:33+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-11-29T11:19:33+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-11-29T11:19:33+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-11-29T11:19:33+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-11-29T11:19:33+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024586s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003396s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000411s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-11-29T11:21:01+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032686s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-11-29T11:21:12+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-11-29T11:36:16+08:00 ] ::1 /index.php/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/user_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: username C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined variable: roles C:\wamp\www\wwwroot\Application\Runtime\Cache\Home\f324508a16a2d221eb71b92d9fd560ca.php Á¨¨ 35 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.249601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002026s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/img/a7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/img/a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/img/a4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/img/a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/img/a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/img/a8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002881s ]
+
+[ 2016-11-29T13:37:24+08:00 ] ::1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-11-29T13:37:25+08:00 ] ::1 /index.php/home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-11-29T13:39:13+08:00 ] ::1 /index.php/home/index/graph_flot.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_flot
+
+[ 2016-11-29T13:39:22+08:00 ] ::1 /index.php/home/index/graph_peity.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_peity
+
+[ 2016-11-29T13:39:39+08:00 ] ::1 /index.php/home/index/graph_peity.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_peity
+
+[ 2016-11-29T13:39:40+08:00 ] ::1 /index.php/home/index/graph_rickshaw.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_rickshaw
+
+[ 2016-11-29T13:39:40+08:00 ] ::1 /index.php/home/index/graph_morris.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_morris
+
+[ 2016-11-29T13:39:40+08:00 ] ::1 /index.php/home/index/graph_flot.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_flot
+
+[ 2016-11-29T13:39:41+08:00 ] ::1 /index.php/home/index/graph_echarts.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_echarts
+
+[ 2016-11-29T13:39:43+08:00 ] ::1 /index.php/home/index/graph_sparkline.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:graph_sparkline
+
+[ 2016-11-29T13:39:48+08:00 ] ::1 /index.php/home/index/social_feed.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:social_feed
+
+[ 2016-11-29T13:39:48+08:00 ] ::1 /index.php/home/index/teams_board.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:teams_board
+
+[ 2016-11-29T13:39:48+08:00 ] ::1 /index.php/home/index/profile.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:profile
+
+[ 2016-11-29T13:39:48+08:00 ] ::1 /index.php/home/index/contacts.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:contacts
+

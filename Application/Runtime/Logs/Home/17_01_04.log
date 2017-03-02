@@ -1,0 +1,30 @@
+[ 2017-01-04T00:22:28+08:00 ] ::1 /index.php/home/order/order_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003354s ]
+
+[ 2017-01-04T00:22:33+08:00 ] ::1 /index.php/home/order/search_car
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `cars_c` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `cars_c` WHERE `userid` IN ('45') AND `status` = '待租' AND `is_delete` = 0 AND `nickname` LIKE '%%' ORDER BY id desc  [ RunTime:0.0157s ]
+

@@ -1,0 +1,350 @@
+[ 2016-05-18T03:38:25+08:00 ] 192.168.57.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '62' LIMIT 0,7   [ RunTime:0.2188s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.5469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '61' LIMIT 0,7   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.5469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3750s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '65' LIMIT 0,7   [ RunTime:0.2813s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '66' LIMIT 0,7   [ RunTime:0.4219s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '67' LIMIT 0,7   [ RunTime:0.4688s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '68' LIMIT 0,7   [ RunTime:0.4531s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '69' LIMIT 0,7   [ RunTime:0.0938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T09:27:22+08:00 ] 192.168.57.1 /index.php/home/index/show?id=81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '81' LIMIT 1   [ RunTime:0.0781s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T11:57:19+08:00 ] 192.168.57.1 /index.php/home/index/lists?id=65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = '65' AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '65' LIMIT 0,30   [ RunTime:0.3281s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+NOTIC: [8] Undefined variable: addtime D:\wwwroot\btsmzj\wwwroot\Application\Runtime\Cache\Home\b703616f43106f0a92ef0e15a918e383.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T15:25:29+08:00 ] 192.168.57.1 /index.php/home/index/show?id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '75' LIMIT 1   [ RunTime:0.0938s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T16:28:49+08:00 ] 192.168.57.1 /index.php/home/index/show?id=85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '85' LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T17:13:21+08:00 ] 192.168.57.1 /index.php/home/index/show?id=98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '98' LIMIT 1   [ RunTime:0.0781s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-05-18T17:13:27+08:00 ] 192.168.57.1 /index.php/home/index/show?id=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '50' LIMIT 1   [ RunTime:0.0938s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T17:13:46+08:00 ] 192.168.57.1 /index.php/home/index/show?id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0625s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '69' LIMIT 1   [ RunTime:0.1094s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.4219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-05-18T17:39:24+08:00 ] 192.168.57.1 /index.php/home/index/show?id=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '54' LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.2656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T19:00:03+08:00 ] 192.168.57.1 /index.php/home/index/show?id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '51' LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.4063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T21:07:21+08:00 ] 192.168.57.1 /index.php/home/index/show?id=49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '49' LIMIT 1   [ RunTime:0.0938s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-18T22:01:44+08:00 ] 192.168.57.1 /index.php/home/index/show?id=88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `id` = '88' LIMIT 1   [ RunTime:0.0938s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,153 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>灵控租车管理系统-车辆管理</title>
+    <link rel="shortcut icon" href="favicon.ico"> 
+    <link href="/public/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="/public/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+
+    <link href="/public/css/animate.min.css" rel="stylesheet">
+    <link href="/public/css/style.min.css?v=4.0.0" rel="stylesheet"><base target="_blank">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <div class="file-manager">
+                            <h5>显示：</h5>
+                            <a href="#" onclick="javascript:fresh_car_list(0);return false;" id="st0" class="file-control active">所有</a>
+                            <a href="#" onclick="javascript:fresh_car_list(2);return false;" id="st2" class="file-control">在租</a>
+                            <a href="#" onclick="javascript:fresh_car_list(1);return false;" id="st1" class="file-control">待租</a>
+                            <a href="#" onclick="javascript:fresh_car_list(3);return false;" id="st3" class="file-control">维修/保养</a>
+                            <div class="hr-line-dashed"></div>
+                            <button class="btn btn-primary btn-block" onclick="javascript:open_add();">添加车辆</button>
+                            <div class="hr-line-dashed"></div>
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-9 animated fadeInRight">
+                <div class="row">
+                    <div class="col-sm-12" id="cars_list">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/public/js/bootstrap.min.js?v=3.3.5"></script>
+    <script src="/public/js/content.min.js?v=1.0.0"></script>
+    <script src="/public/js/jquery.confirm.js"></script>
+    <script>
+        $(document).ready(function(){$(".file-box").each(function(){animationHover(this,"pulse")})});
+        //车辆数据载入
+      //企业客户数据载入
+        function fresh_car_list(status){
+            $("#st"+status).addClass('btn-primary');
+            $("#st"+status).siblings("a").removeClass('btn-primary');
+            $.ajax({
+                    url:'/index.php/home/car/cars_list',
+                    type:'POST',
+                    async:true,
+                    data:{
+                        "status":status
+                    },
+                    dataType:'json',
+                    success:function(data,textStatus,jqXHR){
+                        
+                        html_store="";
+                        $(data).each(function(index, el) {
+                            html_store+="<div class='file-box' id='s"+el.id+"'><div class='file'><span class='corner'></span><div class='image'><img alt='image' class='img-responsive' src='"+el.img_url+"'></div><div class='file-name'>"+el.chepai+"<br/><a data-toggle='modal' class='' href='#' onclick='view_car(&quot;"+el.id+"&quot;,&quot;"+el.nickname+"&quot;);return false;'>查看</a><small>"+el.nickname+"</small><a data-toggle='modal' class='' href='#' onclick='del_car(&quot;"+el.id+"&quot;);return false;'>删除</a></div></div></div>";
+                           
+                        });
+                         $("#cars_list").html(html_store);
+                         
+
+                    },
+                    error:function(xhr,textStatus){
+                    },
+                    complete:function(){
+                        
+                        //alert("complete");
+                        //$("#d"+id).parent().parent().remove();
+                    }
+            })
+    }
+    fresh_car_list(0);
+
+    function del_car(id){
+        $("#s"+id).confirm({
+            title:"删除确认",
+            text:"确定要删除这条信息吗?",
+            confirm: function(button) {
+                delete_car(id);
+
+            },
+            cancel: function(button) {
+            },
+            confirmButton: "是的",
+            cancelButton: "不"
+            });
+       }
+    //删除车辆
+       function delete_car(id){
+            $.ajax({
+                    url:'/index.php/home/car/del_car',
+                    type:'POST', //GET
+                    async:true,    //或false,是否异步
+                    data:{
+                        id:id
+                    },
+                    dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+                    success:function(data,textStatus,jqXHR){
+                        //alert("删除成功");
+                        //fresh_store();
+                    },
+                    error:function(xhr,textStatus){
+                    },
+                    complete:function(){
+                        //alert("complete");
+                        $("#s"+id).remove();
+                        //fresh_store();
+                    }
+            })
+       }
+       //view 车辆
+      
+       function view_car(id,name){
+        $('.page-tabs-content a', window.parent.document).removeClass('active');
+        var t="<a href='javascript:;'' class='active J_menuTab' data-id='/index.php/home/car/view_car/id/"+id+"'>"+name+"--详情<i class='fa fa-times-circle'></i></a>";
+        var c="<iframe class='J_iframe' name='iframe0' width='100%' height='100%' src='/index.php/home/car/view_car/id/"+id+"' frameborder='0' data-id='/index.php/home/car/view_car/id/"+id+"' seamless='' style='inline'></iframe>";
+        $('#content-main iframe', window.parent.document).css("display","none");
+        $('.page-tabs-content', window.parent.document).append(t);
+        $('#content-main', window.parent.document).append(c);
+
+    }
+    function open_add(){
+        $('.page-tabs-content a', window.parent.document).removeClass('active');
+        var t="<a href='javascript:;'' class='active J_menuTab' data-id='/index.php/home/car/add_car'>车辆新增<i class='fa fa-times-circle'></i></a>";
+        var c="<iframe class='J_iframe' name='iframe0' width='100%' height='100%' src='/index.php/home/car/add_car' frameborder='0' data-id='/index.php/home/car/add_car' seamless='' style='inline'></iframe>";
+        $('#content-main iframe', window.parent.document).css("display","none");
+        $('.page-tabs-content', window.parent.document).append(t);
+        $('#content-main', window.parent.document).append(c);
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+[ 2016-06-23T02:35:39+08:00 ] 192.168.57.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '62' LIMIT 0,7   [ RunTime:0.2656s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.6250s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '61' LIMIT 0,7   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.6094s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.4063s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '65' LIMIT 0,7   [ RunTime:0.3125s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '66' LIMIT 0,7   [ RunTime:0.4688s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '67' LIMIT 0,7   [ RunTime:0.5313s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '68' LIMIT 0,7   [ RunTime:0.5156s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '69' LIMIT 0,7   [ RunTime:0.1094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-23T03:40:08+08:00 ] 192.168.57.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '62' LIMIT 0,7   [ RunTime:0.2344s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.5469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '61' LIMIT 0,7   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.5625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.3750s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '65' LIMIT 0,7   [ RunTime:0.2813s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '66' LIMIT 0,7   [ RunTime:0.4219s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '67' LIMIT 0,7   [ RunTime:0.4688s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '68' LIMIT 0,7   [ RunTime:0.4688s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '69' LIMIT 0,7   [ RunTime:0.0938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-23T05:05:55+08:00 ] 192.168.57.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '62' LIMIT 0,7   [ RunTime:0.2656s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.6563s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '61' LIMIT 0,7   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.6250s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.4375s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '65' LIMIT 0,7   [ RunTime:0.3125s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '66' LIMIT 0,7   [ RunTime:0.4688s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '67' LIMIT 0,7   [ RunTime:0.5313s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '68' LIMIT 0,7   [ RunTime:0.5313s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '69' LIMIT 0,7   [ RunTime:0.1094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-23T22:02:25+08:00 ] 192.168.57.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\wwwroot\btsmzj\wwwroot\Application\Home\Controller\IndexController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `mxweb_module` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `status` = 1  [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `mxweb_data` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '62' LIMIT 0,7   [ RunTime:0.2500s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `first_module` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.6250s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '61' LIMIT 0,7   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '63' LIMIT 0,7   [ RunTime:0.6094s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '64' LIMIT 0,7   [ RunTime:0.4219s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '65' LIMIT 0,7   [ RunTime:0.3125s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '66' LIMIT 0,7   [ RunTime:0.4688s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '67' LIMIT 0,7   [ RunTime:0.5156s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '68' LIMIT 0,7   [ RunTime:0.5156s ]
+SQL: SELECT * FROM `mxweb_module` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `mxweb_data` WHERE `cate` = '69' LIMIT 0,7   [ RunTime:0.0938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
